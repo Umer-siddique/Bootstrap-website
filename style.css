@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* =================Home section=================== */
+.navbar-setting{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('images/computers.png');
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+.navbar{
+    background: rgba(93, 92, 92, 0.164);
+}
+.navbar .navbar-brand img{
+  height: 45px!important;
+  
+}
+.navbar .navbar-nav a{
+  color: white!important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+}
+.text-part{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.text-part .text-div h1{
+    color: white;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.text-part .text-div h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+.text-part .text-div button{
+    padding: 15px 30px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text-part .text-div .btnOne{
+    border: 3px solid white;
+}
+.text-part .text-div .btnOne:hover{
+    background: white;
+    color:black;
+ 
+}
+.text-part .text-div .btnTwo{
+    background: #00b894;
+    color: white;
+    border: 3px solid #00b894;
+}
+.text-part .text-div .btnTwo:hover{
+    opacity: 0.9;
+  
+}
+
+  .navbar-nav a:hover{
+      color: #00b894!important;
+  }
+/* =================Home section End=================== */
+
+
+
+/* =================feature section=================== */
+ 
+.feature-part{
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+}
+ .feature-div{
+    padding: 9rem 0px;
+}
+.feature-div h1{
+    color:rgb(98, 96, 96);
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.feature-div h5{
+    color:rgb(98, 96, 96);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.feature-div p{
+    color:rgb(98, 96, 96);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold!important;
+}
+.feature-div h3{
+    color:rgb(98, 96, 96); 
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.row_div{
+    margin-top: 5rem!important;
+}
+.icons{
+    margin: 2rem 0px;
+    color: #00b894;
+}
+
+/* =================feature section End=================== */
+
+
+/* =========== Services section========== */
+.services{
+    width: 100%;
+    height: auto;
+}
+.services .feature-div .row{
+    margin-top: 4rem;
+}
+
+/* =========== Services section end ========== */
+
+
+.our-team{
+    width: 100%;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    background-color:#eee;
+}
+
+
+.mates h1{
+    font-size: 1.2rem!important;
+}
+.mates p{
+    font-weight: bold;
+    color:rgb(98, 96, 96); 
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize
+}
+.mates img{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+.mates{
+    padding: 3rem 0px;
+    
+}
+.contact-us{
+    width: 100%;
+    height: auto;
+}
+form label{
+    color:rgb(98, 96, 96)!important;
+    font-weight: bold!important;
+    font-family: 'Lato', sans-serif!important;
+}
+form button{
+    padding: 10px 35px!important;
+    border-radius: 0!important;
+    outline: none!important;
+    color: #fff!important;
+    font-family: 'Lato', sans-serif!important;
+    font-weight: bold!important;
+}
+footer div{
+    height: 40px;
+}
+.footer h2{
+    color: white;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif!important;
+    line-height: 40px;
+    cursor: pointer;
+}
